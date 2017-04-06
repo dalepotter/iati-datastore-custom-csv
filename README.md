@@ -8,8 +8,8 @@ This python script shows a process to generate a CSV file with custom data from 
 ### Installation
 
 ```
-# Get the code
-git clone
+# Clone the code
+git clone https://github.com/dalepotter/iati-datastore-custom-csv.git
 
 # Create and activate a virtual environment
 virtualenv pyenv
