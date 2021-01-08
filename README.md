@@ -26,7 +26,7 @@ Use [wget](http://www.computerhope.com/unix/wget.htm) to download some data from
 In this case, all IATI data relating to Somalia can be downloaded and saved to `somalia.xml` using:
 
 ```
-wget http://datastore.iatistandard.org/api/1/access/activity.csv?recipient-country=SO&stream=True --output-document somalia.xml
+wget "http://datastore.iatistandard.org/api/1/access/activity?recipient-country=SO&stream=True" --output-document somalia.xml
 ```
 
 ### Generating a CSV
